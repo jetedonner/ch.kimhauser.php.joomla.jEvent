@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="COM_JEVENT_DOCUMENTATION_TITLE">
+       <message>COM_JEVENT_DOCUMENTATION_MSG</message>
+    </layout>
+	<fields name="params">
+    	<fieldset name="basic" label="COM_JEVENT_MENU_OPTIONS">
+    		<field name="showHtml" type="list"
+        	label="COM_JEVENT_SHOW_HTML"
+        	description="COM_JEVENT_SHOW_HTML_DESC"
+       		>
+          		<option value="0">JHIDE</option>
+          		<option value="1">JSHOW</option>
+       		</field>
+       		<field type="spacer" name="myspacer1" hr="true" />
+       		<field name="htmlBefore" label ="COM_JEVENT_SHOW_HTML_BEFORE" type="editor" width="300" filter="safehtml" />
+       		<field type="spacer" name="myspacer2" hr="true" />
+       		<field name="htmlAfter" label ="COM_JEVENT_SHOW_HTML_AFTER" type="editor" width="300" filter="safehtml" />
+    	</fieldset>
+	</fields>
+</metadata>

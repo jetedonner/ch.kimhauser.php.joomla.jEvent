@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5.3" method="new">
+   <name>jEvent</name>
+   <creationDate>05.05.2012</creationDate>
+   <author>Kim David Hauser, DaVe Inc.</author>
+   <authorEmail>kim@kimhauser.ch</authorEmail>
+   <authorUrl>http://www.kimhauser.ch</authorUrl>
+   <copyright></copyright>
+   <license>Open Source License, GNU GPL</license>
+   <version>0.9.1</version>
+   <description>jEvent for joomla. An event management component for joomla 2.5.</description>
+
+   <installfile>install/install.php</installfile>
+   <uninstallfile>install/uninstall.php</uninstallfile>
+
+   <files folder="site">
+		<folder>controllers</folder>
+		<folder>images</folder>
+		<folder>helpers</folder>
+        <folder>models</folder>
+		<folder>tables</folder>
+		<folder>templates</folder>
+		<folder>views</folder>
+		<filename>jevent.php</filename>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+    </files>
+    
+   <install>
+      <sql>
+         <file charset="utf8" driver="mysql">install/install.sql</file>
+      </sql>
+   </install>
+
+   <uninstall>
+      <sql>
+         <file charset="utf8" driver="mysql">install/uninstall.sql</file>
+      </sql>
+   </uninstall>
+   
+   <languages folder="site">
+		<language tag="en-GB">en-GB.com_jevent.ini</language>
+		<language tag="de-DE">de-DE.com_jevent.ini</language>
+	</languages>
+
+   <administration>
+
+	  <menu img="components/com_jevent/images/event.png">jEvent</menu>
+	    <submenu>
+	      <menu link="option=com_jevent&amp;view=hellos" img="components/com_jevent/images/access.gif">Access rights</menu>
+	      <menu link="option=com_jevent&amp;view=options" img="components/com_jevent/images/options.gif">Options</menu>
+	      <menu link="option=com_jevent&amp;view=languages" img="components/com_jevent/images/email.png">Mailtexts</menu>
+	  </submenu>
+
+      <files folder="admin">
+      	<folder>controllers</folder>
+      	<folder>css</folder>
+      	<folder>images</folder>
+      	<folder>models</folder>
+      	<folder>tables</folder>
+      	<folder>views</folder>
+      	<folder>install</folder>
+        <filename>jevent.php</filename>
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+      </files>
+
+      <languages folder="admin">
+        <language tag="en-GB">language/en-GB.com_jevent.ini</language>
+      </languages>
+    
+   </administration>
+</extension>
