@@ -1,12 +1,13 @@
 <?php
 /**
- * Hello Controller for Hello World Component
- * 
- * @package    Joomla.Tutorials
- * @subpackage Components
- * @link http://docs.joomla.org/Developing_a_Model-View-Controller_Component_-_Part_4
- * @license		GNU/GPL
- */
+* Controller for Admin Options Component
+* @version      1.0.1 (2021-02-21)
+* @author       kimhauser.ch, kim@kimhauser.ch (Kim-Daivd Hauser)
+* @package      ch.kimhauser.php.joomla.jEvent
+* @link 		https://github.com/jetedonner/ch.kimhauser.php.joomla.jEvent
+* @copyright    Copyright (C) 1991 - 2021 kimhauser.ch. All rights reserved.
+* @license      GNU/GPL
+*/
 
 // No direct access
 defined( '_JEXEC' ) or die( 'Restricted access' );

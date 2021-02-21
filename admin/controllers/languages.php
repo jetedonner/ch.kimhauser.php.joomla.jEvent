@@ -1,9 +1,10 @@
 <?php
 /**
-* @version      2.5.3 20.11.2010
-* @author       MAXXmarketing GmbH
-* @package      Jshopping
-* @copyright    Copyright (C) 2010 webdesigner-profi.de. All rights reserved.
+* @version      1.0.1 (2021-02-21)
+* @author       kimhauser.ch, kim@kimhauser.ch (Kim-Daivd Hauser)
+* @package      ch.kimhauser.php.joomla.jEvent
+* @link 		https://github.com/jetedonner/ch.kimhauser.php.joomla.jEvent
+* @copyright    Copyright (C) 1991 - 2021 kimhauser.ch. All rights reserved.
 * @license      GNU/GPL
 */
 
@@ -86,6 +87,5 @@ class HellosControllerLanguages extends JController{
         }
         $this->setRedirect("index.php?option=com_jshopping&controller=languages");
     }
-        
 }
 ?>
